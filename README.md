@@ -78,33 +78,37 @@ In this deliverable, we have to create a Python script to visualize the weather 
 After each pair of plots, explain what the linear regression is modeling. Describe any relationships and any other findings you may uncover.
 
 # Part 2: VacationPy
-In this deliverable, you'll use your weather data skills to plan future vacations. Also, you'll use Jupyter notebooks, the geoViews Python library, and the Geoapify API.
+In this deliverable, we will use weather data skills to plan future vacations. 
 
-The code needed to import the required libraries and load the CSV file with the weather and coordinates data for each city created in Part 1 is provided to help you get started.
+1. Load the CSV file created in Part 1 into a Pandas DataFrame and display sample data
 
-Your main tasks will be to use the Geoapify API and the geoViews Python library and employ your Python skills to create map visualizations.
+![1](https://github.com/Pooja14n/python-api-challenge/assets/144713762/57cdc783-f77e-49fe-91c8-2092c091dfb7)
+
+The main tasks will be to use the Geoapify API and the geoViews Python library and employ your Python skills to create map visualizations.
 
 To succeed on this deliverable of the assignment, open the VacationPy.ipynb starter code and complete the following steps:
 
-Create a map that displays a point for every city in the city_data_df DataFrame as shown in the following image. The size of the point should be the humidity in each city.
+2. Create a map that displays a point for every city in the city_data_df DataFrame as shown in the following image. The size of the point should be the humidity in each city.
 
-Humidity map
+![2](https://github.com/Pooja14n/python-api-challenge/assets/144713762/4614a1d6-f8fb-4656-bd18-4324cd5c26d7)
 
-Narrow down the city_data_df DataFrame to find your ideal weather condition. For example:
+3. Narrow down the city_data_df DataFrame to find your ideal weather condition. For example:
 
-A max temperature lower than 27 degrees but higher than 21
+  -> A max temperature lower than 27 degrees but higher than 21
+  -> Wind speed less than 4.5 m/s
+  -> Zero cloudiness
 
-Wind speed less than 4.5 m/s
+![3](https://github.com/Pooja14n/python-api-challenge/assets/144713762/b463acaa-8f49-4c5c-a965-148b28b642f5)
 
-Zero cloudiness
+4. Create a new DataFrame called hotel_df to store the city, country, coordinates, and humidity.
 
-NOTE
-Feel free to adjust your specifications but make sure to set a reasonable limit to the number of rows returned by your API requests.
+![4](https://github.com/Pooja14n/python-api-challenge/assets/144713762/d26315a4-20cc-463e-bb84-dcce46e69618)
 
-Create a new DataFrame called hotel_df to store the city, country, coordinates, and humidity.
+5. For each city, use the Geoapify API to find the first hotel located within 10,000 meters of your coordinates.
 
-For each city, use the Geoapify API to find the first hotel located within 10,000 meters of your coordinates.
+![5](https://github.com/Pooja14n/python-api-challenge/assets/144713762/d13c0565-e31f-47f3-8731-3faf457c7c4d)
 
-Add the hotel name and the country as additional information in the hover message for each city on the map as in the following image:
+6. Add the hotel name and the country as additional information in the hover message for each city on the map:
 
-Hotel map
+![6](https://github.com/Pooja14n/python-api-challenge/assets/144713762/a9c5fa39-526b-449b-94b7-ece2f3715931)
+
