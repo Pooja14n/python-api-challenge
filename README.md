@@ -12,50 +12,72 @@ This activity is broken down into two deliverables: WeatherPy and VacationPy.
 In this deliverable, we have to create a Python script to visualize the weather of over 500 cities of varying distances from the equator, for which we use the citipy Python libraryLinks to an external site., the OpenWeatherMap APILinks to an external site., and our problem-solving skills to create a representative model of weather across cities.
 
 # Requirement 1: Create Plots to Showcase the Relationship Between Weather Variables and Latitude
-Use the OpenWeatherMap API to retrieve weather data from the cities list generated.
+1. Use the OpenWeatherMap API to retrieve weather data from the cities list generated. 
 
 ![2](https://github.com/Pooja14n/python-api-challenge/assets/144713762/48730b0d-1910-4af9-804c-eedc8a641467)
+
 ![1](https://github.com/Pooja14n/python-api-challenge/assets/144713762/736b3d77-d7f6-47be-b423-d44fe9383174)
+
 ![3](https://github.com/Pooja14n/python-api-challenge/assets/144713762/c2dae362-d157-4eb2-99ed-559522cee1f1)
 
-To fulfill the first requirement, we use the OpenWeatherMap API to retrieve weather data from the cities list generated in the starter code. Next, we create a series of scatter plots to showcase the following relationships:
+![5](https://github.com/Pooja14n/python-api-challenge/assets/144713762/8fea80df-131e-452a-9091-f6122e8c5781)
 
-Latitude vs. Temperature
+![4](https://github.com/Pooja14n/python-api-challenge/assets/144713762/b147f1e1-5efb-422b-a27c-db78394dcc29)
 
-Latitude vs. Humidity
+2. Next, we create a series of scatter plots to showcase the following relationships:
 
-Latitude vs. Cloudiness
+  a. Latitude vs. Temperature
 
-Latitude vs. Wind Speed
+  ![6](https://github.com/Pooja14n/python-api-challenge/assets/144713762/7e99104f-f4cf-4509-822f-3419db89a29a)
 
-Requirement 2: Compute Linear Regression for Each Relationship
-To fulfill the second requirement, compute the linear regression for each relationship. Separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude). You may find it helpful to define a function in order to create the linear regression plots.
+  b. Latitude vs. Humidity
 
-Next, create a series of scatter plots. Be sure to include the linear regression line, the model's formula, and the r values as you can see in the following image
+  ![7](https://github.com/Pooja14n/python-api-challenge/assets/144713762/35111297-0463-4d6f-ab2c-307232fab4e3)
 
-Sample scatter plot with the linear regression line.
+  c. Latitude vs. Cloudiness
 
-You should create the following plots:
+  ![8](https://github.com/Pooja14n/python-api-challenge/assets/144713762/35b8b94b-1acb-43f6-995a-5cd72c69adcb)
 
-Northern Hemisphere: Temperature vs. Latitude
+  d. Latitude vs. Wind Speed
 
-Southern Hemisphere: Temperature vs. Latitude
+  ![9](https://github.com/Pooja14n/python-api-challenge/assets/144713762/32b95a71-1d07-4171-b045-b532edebbee6)
 
-Northern Hemisphere: Humidity vs. Latitude
+# Requirement 2: Compute Linear Regression for Each Relationship
+1. Compute the linear regression for each relationship. Separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude). 
 
-Southern Hemisphere: Humidity vs. Latitude
+![11](https://github.com/Pooja14n/python-api-challenge/assets/144713762/45850521-e7bc-4f64-ae59-c9d17ef28200)
 
-Northern Hemisphere: Cloudiness vs. Latitude
+![10](https://github.com/Pooja14n/python-api-challenge/assets/144713762/dff853b0-5ed2-4339-87c1-596c44641de2)
 
-Southern Hemisphere: Cloudiness vs. Latitude
+2. Next, create a series of scatter plots and include the linear regression line, the model's formula, and the r values for the following plots:
 
-Northern Hemisphere: Wind Speed vs. Latitude
+  a. Northern Hemisphere: Temperature vs. Latitude
+  ![12](https://github.com/Pooja14n/python-api-challenge/assets/144713762/d1ac456d-9338-42a5-b2d9-298f7d4d8e24)
 
-Southern Hemisphere: Wind Speed vs. Latitude
+  b. Southern Hemisphere: Temperature vs. Latitude
+  ![13](https://github.com/Pooja14n/python-api-challenge/assets/144713762/1178bd88-7ba8-4426-8e36-992cf1829d49)
 
-After each pair of plots, explain what the linear regression is modeling. Describe any relationships that you notice and any other findings you may uncover.
+  c. Northern Hemisphere: Humidity vs. Latitude
+  ![14](https://github.com/Pooja14n/python-api-challenge/assets/144713762/3a95195b-0d19-4309-8cc2-80ce5051a977)
 
-Part 2: VacationPy
+  d. Southern Hemisphere: Humidity vs. Latitude
+  ![15](https://github.com/Pooja14n/python-api-challenge/assets/144713762/a9e60f9d-d16e-4422-84c5-7f7a8f9cbe26)
+
+  e. Northern Hemisphere: Cloudiness vs. Latitude
+  ![16](https://github.com/Pooja14n/python-api-challenge/assets/144713762/194649e8-8e69-4bf1-babc-e4b9baabb8a5)
+
+  f. Southern Hemisphere: Cloudiness vs. Latitude
+  ![17](https://github.com/Pooja14n/python-api-challenge/assets/144713762/dc417e25-a599-49fb-b149-9cf22430871f)
+
+  g. Northern Hemisphere: Wind Speed vs. Latitude
+  ![18](https://github.com/Pooja14n/python-api-challenge/assets/144713762/268259b5-8364-4eb5-8e3d-4dd4477a5d0f)
+
+  h.Southern Hemisphere: Wind Speed vs. Latitude
+  ![19](https://github.com/Pooja14n/python-api-challenge/assets/144713762/33361318-1905-4964-a582-c4b17f0f5ae3)
+
+After each pair of plots, explain what the linear regression is modeling. Describe any relationships and any other findings you may uncover.
+
+# Part 2: VacationPy
 In this deliverable, you'll use your weather data skills to plan future vacations. Also, you'll use Jupyter notebooks, the geoViews Python library, and the Geoapify API.
 
 The code needed to import the required libraries and load the CSV file with the weather and coordinates data for each city created in Part 1 is provided to help you get started.
