@@ -147,7 +147,8 @@ Initial steps carried out prior to coding are:
 Referred to various class activity exercises, got support from BCS Learning Assistant, Assistant Instructor, and websites for: Pandas Documentation, Stack Overflow, Matplotlib Documentation, Openweathermap API Documentayion, Geoapify Documentation, Documentation for hvplot.
 
 # Files submitted including this README File
-  1. Folder -> WeatherPy
+  1. .gitignore file
+  2. Folder -> WeatherPy
      a. output_data folder:
         i. cities.csv
         ii. Fig1.png
